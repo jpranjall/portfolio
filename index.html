@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Jagtap Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+        .hover-effect:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .section-title {
+            margin: 30px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .project-card {
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pranjal Jagtap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center bg-light py-5">
+        <img src="profile-photo.jpeg" alt="Profile Photo" class="profile-photo">
+        <h1>Pranjal Jagtap</h1>
+        <p>Frontend Developer | Python Enthusiast | Machine Learning Explorer</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I am Pranjal Jagtap, a passionate software engineer specializing in building user-friendly and efficient Single Page Applications (SPAs). I love blending creativity with technical expertise to create web applications that solve real-world problems.</p>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Programming Languages</h5>
+                    <p>Python, SQL</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Technologies</h5>
+                    <p>Django, HTML, CSS, Bootstrap, Machine Learning</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Developer Tools</h5>
+                    <p>VS Code, Canva</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card project-card hover-effect">
+                        <div class="card-body">
+                            <h5 class="card-title">Dialearner-Diabetes Prediction</h5>
+                            <p class="card-text">Developed a machine learning model to predict diabetes using logistic regression, decision trees, and random forests.</p>
+                            <a href="https://github.com/jpranjall/DIALEARNER-DIABETES-PREDICTION-USING-MACHINE-LEARNING-" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card project-card hover-effect">
+                        <div class="card-body">
+                            <h5 class="card-title">Online Food Ordering System</h5>
+                            <p class="card-text">Built a web app using Django for efficient food ordering with user authentication and categorized menu browsing.</p>
+                            <a href="https://pranjal002.pythonanywhere.com/food/home/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Email: <a href="mailto:pranjaljagtap885@gmail.com">pranjaljagtap885@gmail.com</a></p>
+            <p>Phone: +91-8856977603</p>
+            <p><a href="http://www.linkedin.com/in/pranjal-jagtap-3539172a1" target="_blank">LinkedIn</a> | <a href="https://github.com/jpranjall" target="_blank">GitHub</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pranjal Jagtap. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
